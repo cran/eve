@@ -1,0 +1,2 @@
+export(eve,eve.acc,eve.bival,eve.bounds,eve.mmatt,eve.mcc,eve.kappa,
+       eve.eigens,eve.nmi,eve.cen,eve.mcen,m2two,m2two.k)
