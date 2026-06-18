@@ -1,7 +1,7 @@
 #############################################################################
-## This function computes the eigenvalues entropy of a confusion matrix
+### This function allows to get a symmetric matrix B from a confusion matrix
 #############################################################################
-eve <- function(mmat) {
+eve.bmat <- function(mmat) {
     n <- nrow(mmat)
     n2 <- ncol(mmat)
     if (n == n2) {
@@ -15,13 +15,9 @@ eve <- function(mmat) {
         }
         pmat <- mmat %*% cmat
         bmat <- 0.5*(pmat + t(pmat))
-        res <- eigen(bmat)
-        eta <- res$values[res$values>0]
-        eta <- eta/sum(eta)
-        res <- -sum(eta*log(eta))/log(n)
-        return(res)
+        return(bmat)
     } else {
-        return("eve(): square matrix is required")
+        return("eve.bmat(): square matrix is required")
     }
 }
 #############################################################################

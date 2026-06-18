@@ -13,9 +13,8 @@
   \item{mmat}{ a square numerical-valued confusion matrix.}
 }
 
-\value{ This function returns the eigenvalues of the
-  confusion matrix transformation. These eigenvalues
-  are used to obtain the EVE evaluation measure. For a
+\value{ This function returns the eigenvalues
+  used to obtain the EVE evaluation measure. For a
   binary problem, they can be used to obtain the AUC or the
   Gini index (coefficient).
 }

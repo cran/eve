@@ -1,5 +1,5 @@
-\name{m2two}
-\alias{m2two}
+\name{m2two.a}
+\alias{m2two.a}
 
 \title{Conversion of a multicass confusion matrixto a single binary 
 confusion matrix}
@@ -7,7 +7,7 @@ confusion matrix}
 \description{This function converts a multiclass confusion
   into a single binary confusion matrix.}
 
-\usage{m2two(mmat)}
+\usage{m2two.a(mmat)}
 
 \arguments{
   \item{mmat}{ a square numerical-valued confusion matrix.}
@@ -33,5 +33,5 @@ be used for evaluating a classifier.
 
 \examples{
    mmat <- matrix(c(50,0,0,0,35,15,0,7,34), ncol=3)
-   m2two(mmat)
+   m2two.a(mmat)
 }

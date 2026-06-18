@@ -2,7 +2,7 @@
 ## This function converts a multiclass confusion matrix (or two clustering
 ## methods matching matrix) into a 2x2 table using the pair counting approach
 #############################################################################
-m2two <- function(mmat) {
+m2two.a <- function(mmat) {
     n <- nrow(mmat)
     n2 <- ncol(mmat)
     if (n == n2) {
@@ -19,7 +19,7 @@ m2two <- function(mmat) {
         res[2,2] <- M - 0.5*(P+Q) + res[1,1]
         return(res)
     } else {
-        return("m2two(): square matrix is required")
+        return("m2two.a(): square matrix is required")
     }
 }
 #############################################################################

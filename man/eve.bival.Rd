@@ -4,8 +4,9 @@
 \title{Some binary measures calculation}
 
 \description{This function computes the sensitivity, the specificity,
-  the precision, the Fowlkes & Mallows index, the F1-score and the
-  area under the ROC curve for a binary problem confusion matrix.}
+  the precision, the Fowlkes & Mallows index, the F1-score, the
+  area under the ROC curve and the GINI index for a binary 
+  problem confusion matrix.}
 
 \usage{eve.bival(mmat)}
 

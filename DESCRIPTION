@@ -1,6 +1,6 @@
 Package: eve
-Version: 1.0
-Date: 2025-10-20
+Version: 1.1
+Date: 2026-06-16
 Title: The Eigenvalues Entropy as a Classifier Evaluation Measure
 Authors@R: person(given = "Doulaye",
 	   	  family = "Dembele",
@@ -20,6 +20,6 @@ Description: The confusion matrix (CM) is used to get a classifier's
 	     provided for comparison purpose. 
 License: GPL (>= 2)
 NeedsCompilation: no
-Packaged: 2025-11-06 09:15:14 UTC; doulaye
+Packaged: 2026-06-17 11:24:53 UTC; doulaye
 Repository: CRAN
-Date/Publication: 2025-11-11 09:50:13 UTC
+Date/Publication: 2026-06-18 10:50:02 UTC

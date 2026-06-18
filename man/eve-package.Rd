@@ -12,8 +12,8 @@
 \tabular{ll}{
              Package: \tab eve\cr
              Type: \tab Package\cr
-             Version: \tab 0.1-0\cr
-             Date: \tab 2025-10-20\cr
+             Version: \tab 1.1\cr
+             Date: \tab 2026-06-16\cr
              License: \tab GPL (>=2.0)\cr
              }
 
@@ -46,7 +46,7 @@
 	       eve.mcen(): \tab  This function compute the modified
 	       confusion entropy of the misclassification.\cr\tab A shifted
 	       value is returned.\cr
-	       m2two(): \tab This function converts a multiclass
+	       m2two.a(): \tab This function converts a multiclass
                confusion matrix into a binary confusion matrix.\cr
 	       m2two.k(): \tab This function allows to get a confusion
 	       matrix of the comparison of one class\cr\tab (k) versus the
@@ -75,7 +75,7 @@
 
    eve.mmatt(mmat)
    
-   res <- m2two(mmat)
+   res <- m2two.a(mmat)
    eve.bival(res)
    eve.kappa(res)
    eve(res)
